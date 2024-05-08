@@ -58,6 +58,12 @@
     <Compile Include="EstadoCivil.Designer.cs">
       <DependentUpon>EstadoCivil.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fotografia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fotografia.Designer.cs">
+      <DependentUpon>Fotografia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Medidas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EstadoCivil.resx">
       <DependentUpon>EstadoCivil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fotografia.resx">
+      <DependentUpon>Fotografia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Medidas.resx">
       <DependentUpon>Medidas.cs</DependentUpon>

@@ -16,7 +16,7 @@ namespace TrabajoPractico_Julia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Medidas());
+            Application.Run(new Fotografia());
         }
     }
 }
